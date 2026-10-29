@@ -18,6 +18,8 @@ public class JogoManual {
     public String[][] tabuleiro2;
     public String jogador1;
     public String jogador2;
+    public int linha;
+    public int coluna;
 
     public JogoManual() {
         ler = new Scanner(System.in);
